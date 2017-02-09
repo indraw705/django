@@ -1,0 +1,40 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% include 'head_stuff.html' %}
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="mbr-table-cell">
+    
+<br><br><br><br><br><br><br><br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                
+                <h3 class="mbr-section-title ">{{ instance.title }}</h3><br>
+                
+                {% if instance.image %}
+                <img src="{{ instance.image.url }} " class='img-responsive'>
+                {% endif %}
+                <h4>{{ instance.content | linebreaks}}</h4>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">Share on Facebook</a>  
+                <h5>{{ instance.timestamp }}</h5>
+                <h6> Post by {{ instance.user }}</h6> {% if request.user == instance.user %}
+                    <h5><a href="edit"><i class="fa fa-pencil" aria-hidden="true"></i> Edit   </a></h5>
+                    <h5><a href="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete   </a></h5>
+
+                {% endif %} 
+                <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                <hr><br>
+                <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    
+
+
+    </div>

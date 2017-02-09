@@ -1,0 +1,33 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% include 'head_stuff.html' %}
+
+
+
+
+<section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow" id="header1-1" style="background-image: url({% static 'assets/images/vill-1-2000x1125-51.jpg' %} );">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="mbr-table-cell">
+    
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-xs-center">
+                    <h1 class="mbr-section-title display-1">{{ title }}</h1>
+					<form method="POST" action="" enctype="mulipart/form-data">{% csrf_token %}
+                    {{ form | crispy }}
+                    <input type="submit"  class="btn btn-info" value="{{ title }}" name="">
+                        
+                    </form>
+                    
+                    
+				</div>
+            </div>
+        </div>
+
+
+    </div>
+
+

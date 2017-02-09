@@ -1,0 +1,69 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% include 'head_stuff.html' %}
+
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="mbr-table-cell">
+    
+<br><br><br><br><br><br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-6">
+                <h3><a href="{% url 'posts:create_post' %}"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Post a News</a></h3>
+                <br><br>
+                <form method="GET" action="" class="input-group">
+                
+                    <input type="text" name="q" class="form-control" value="{{ request.GET.q }}" placeholder="Search for news"><span class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i>   Search </button>
+                    </span>
+              </form>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-sm-6 ">
+              
+              {% for obj in object_list %}
+                <div class="thumbnail">
+                  <div class="caption">
+                    <h3><a href="{{ obj.get_absolute_url }}"><h3 class="mbr-section-title ">{{ obj.title }}</h3></a><small>{{ obj.timestamp | timesince }} ago</small></h3>
+                    {% if obj.image %}
+                    <img src="{{ obj.image.url }} " class='img-responsive'>
+                    {% endif %}
+                    <h4>{{ obj.content | linebreaks | truncatechars:120 }}</h4>
+                            <h5>{{ obj.timestamp }}</h5>
+                            <h6> Post by {{ obj.user }}</h6>
+                    <p>
+                        <a href="{{ obj.get_absolute_url }}" class="btn btn-primary" role="button">View</a> 
+                    </p>
+                  </div>
+                </div>
+                <hr/>
+                <!-- {% cycle "" "<div class='col-sm-12'><hr/></div></div><div class='row'>" %} -->
+                {% endfor %}
+
+                <div class="pagination">
+                    <span class="step-links">
+                        {% if object_list.has_previous %}
+                            <a href="?{{ page_request_var }}={{ object_list.previous_page_number }}">previous</a>
+                        {% endif %}
+
+                        <span class="current">
+                            Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}.
+                        </span>
+
+                        {% if object_list.has_next %}
+                            <a href="?{{ page_request_var }}={{ object_list.next_page_number }}">next</a>
+                         {% endif %}
+                    </span>
+                </div>
+              </div>
+            </div>
+        </div>
+    
+
+
+    </div>

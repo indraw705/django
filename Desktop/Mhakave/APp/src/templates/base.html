@@ -1,0 +1,74 @@
+{% load staticfiles %}
+
+{% include 'head_stuff.html' %}
+
+<body id="page-top" class="index">
+
+  
+    
+
+<header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To our Village</div>
+                <div class="intro-heading">MHAKAVE</div>
+                <h4>Mhakave is an Indian village situated at the bank of the Vedaganga river in Kolhapur District, Maharashtra state. It is near to the Karnataka border.<br>Shree Siddheshwar temple is situated in the heart of the village.</h4>
+                {% if user.is_authenticated %}
+                        <h2 class="mbr-section-lead lead">Welcome {{ request.user }} </h2>   
+                    
+                    {% else %}
+                    <div class="mbr-section-btn"><a class="page-scroll btn btn-xl" href="/login">LOGIN</a> <a class="btn btn-lg btn-white btn-white-outline" href="/register">REGISTER</a></div>
+                    {% endif %}
+            </div>
+        </div>  
+</header>
+            
+
+
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- {% include 'section_info.html' %} -->
+ 
+<!-- {% include 'gallery.html' %} -->
+
+<!-- {% include 'video.html' %} -->
+
+
+{% include 'openions.html' %}
+{% include 'follow_us.html' %}
+
+{% include 'address.html' %}
+
+
+
+
+
+
+
+
+
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-2" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+    
+    <div class="container">
+        <p class="text-xs-center">Copyright (c) 2017 MHAKAVE | Indraw705.</p>
+    </div>
+</footer>
+
+
+  
+  
+  
+  <input name="animation" type="hidden">
+   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
+
+
+
+ <!--    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+    </body>
+</html>

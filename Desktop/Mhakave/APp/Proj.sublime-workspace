@@ -1,0 +1,375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"navb",
+				"navbar-toggler"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"cl",
+				"clean"
+			],
+			[
+				"U",
+				"UserRegisterForm"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"pas",
+				"password2"
+			],
+			[
+				"passw",
+				"password"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"l",
+				"login_view"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"Model",
+				"Model"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"u",
+				"urlpatterns"
+			],
+			[
+				"html",
+				"html_message"
+			],
+			[
+				"Sign",
+				"SignUpForm"
+			],
+			[
+				"Si",
+				"SignUpForm"
+			],
+			[
+				"si",
+				"SignUp"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"home",
+				"homePage"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Indrajit/Downloads/startbootstrap-agency-gh-pages/startbootstrap-agency-gh-pages/index.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Mhakave/urls.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/css/agency.min.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Mhakave/settings.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/base.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/address.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/navbar.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/javascripts.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/accounts/forms.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/middleware.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/css/agency.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/accounts/views.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/head_css.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/gallery.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/css/font-awesome.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/openions.html",
+		"/C/Users/Indrajit/Desktop/selenium.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/register.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/contact_page.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/login.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/forms.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/Home.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/forms.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/views.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/manage.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/db.sqlite3",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/video.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/assets/theme/css/style.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/section_info.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/templates/follow_us.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/assets/mobirise/css/mbr-additional.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/models.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/static_in_env/static_root/admin/css/base.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/static_in_env/static_root/css/bootstrap.css",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/static_in_pro/our_static/img/asdasd",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/forms.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/admin.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/urls.py",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Home/Home.html",
+		"/C/Users/Indrajit/Desktop/Mhakave/Mhakave/Mhakave/Home.html",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/homePage/views.py",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/Templates/Homepage.html",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/homePage/models.py",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/homePage/forms.py",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/homePage/admin.py",
+		"/E/Indrajit/Codes/Templates/startbootstrap-one-page-wonder-gh-pages/startbootstrap-one-page-wonder-gh-pages/index.html",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/Mhakave/urls.py",
+		"/E/Indrajit/Codes/Django_vids/Mhakave/Mhakave/settings.py",
+		"/E/Indrajit/Codes/Django_vids/Templates/Homepage.html",
+		"/E/Indrajit/Codes/Templates/himu-free-responsive-bootstrap-template/himu/index.html",
+		"/E/Indrajit/Codes/Django_vids/src/home/views.py",
+		"/E/Indrajit/Codes/Django_vids/src/Mhakave/settings.py",
+		"/E/Indrajit/Codes/Django_vids/src/Mhakave/urls.py",
+		"/E/Indrajit/Codes/Py_scripts/Divident_share/Stocks_Divident_bonus/src/stocks.json",
+		"/C/Users/Indrajit/Desktop/sample.py",
+		"/C/Users/Indrajit/Desktop/whatsapp.py",
+		"/C/Users/Indrajit/Desktop/html5up-helios/index.html",
+		"/E/Indrajit/Codes/Templates/himu-free-responsive-bootstrap-template/himu/send-mail.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"News",
+			"039BE5",
+			"fed136",
+			"src",
+			"MHAKAVE",
+			"url",
+			"form",
+			"Form",
+			"form",
+			"form ",
+			"form",
+			"Form is empty!",
+			"Social",
+			"title",
+			"name\":\"",
+			"name",
+			"?",
+			"CONTACT WITH US\n\n\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 293.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Proj.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Mhakave\\Mhakave\\settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 456.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

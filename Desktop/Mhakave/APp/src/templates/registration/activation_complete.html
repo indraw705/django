@@ -1,0 +1,8 @@
+{% load staticfiles %}
+{% include 'head_stuff.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+<br><br><br><br><br><br>
+{% block content %}
+<p class='lead'>{% trans "Your account is now activated." %}</p>
+{% endblock %}

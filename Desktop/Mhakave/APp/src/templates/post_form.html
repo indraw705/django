@@ -1,0 +1,27 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% include 'head_stuff.html' %}
+
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="mbr-table-cell">
+    
+
+<br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-6 "    
+                <h1> Post News </h1>
+                <form method="POST" action="" enctype="multipart/form-data">{% csrf_token %}
+                {{ form | crispy }}
+                <input type="submit" value="Post" class="btn btn-info" name="">
+                </form> 
+
+
+            </div>
+        </div>
+    
+
+
+    </div>
+    </div>

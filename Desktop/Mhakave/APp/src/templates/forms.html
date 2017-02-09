@@ -1,0 +1,26 @@
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% include 'head_stuff.html' %}
+
+
+
+<section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow" id="header1-1" style="background-image: url({% static 'assets/images/vill-1-2000x1125-51.jpg' %} );">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+    <div class="mbr-table-cell">
+        <div class="container">
+            <div class="row">
+                <div class="mbr-section col-md-11 col-md-offset-1 text-xs-center">
+                    <h1 class="mbr-section-title display-1">अभिप्राय</h1>
+					<form method="post" action="">{% csrf_token %}
+						{{ contact_form | crispy }}
+						<input type="submit" class="btn btn-primary" name="Submit">
+					</form>
+				</div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+ 
